@@ -1,0 +1,34 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #caf0f8;
+}
+
+.mobileMenuButton {
+  display: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobileMenuButton {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .navLinks.mobile {
+    display: block;
+    text-align: center;
+  }
+}

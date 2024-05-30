@@ -1,11 +1,15 @@
 .homeContainer {
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
-  width: "100%";
-  height: "100vh";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #caf0f8;
 }
 
+h1 {
+  font-size: 23px;
+}
 /* responsiveness */
 @media screen and (max-width: 1020px) {
 }
